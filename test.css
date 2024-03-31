@@ -1,0 +1,34 @@
+p{
+    color: aqua;
+}
+
+#nour{
+    color: brown;
+}
+#nour2{
+    color: blue;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 3px solid #d61a1a;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #ca6868;
+  }
+
+  .nour{
+    display: flex;
+  }
