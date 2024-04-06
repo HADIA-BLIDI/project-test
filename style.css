@@ -1,0 +1,164 @@
+a:visited {
+    color: rgb(117, 171, 117);
+  }
+/* mouse over link */
+a:hover {
+    color: rgb(105, 218, 255);
+  }
+
+/* selected link */
+a:active {
+    color: rgb(157, 255, 0);
+  }
+
+.nour h1{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+#nour2{
+    color: rgb(87, 77, 0);
+    font-size: 30px;
+    text-align:right;
+}
+.nour {
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+.hadia img{
+width: 150px;
+height: 150PX;
+
+border: 15px solid green;
+padding-left: 20px;
+margin-right: 20px;
+
+}
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style: none; /* Remove bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Arrange links horizontally */
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline */
+    color: black;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+    background-position: center;
+    display: flex; /* Allow elements to stack vertically */
+    flex-direction: column; /* Align elements on top */
+    justify-content: center; /* Center elements vertically */
+    align-items: center; /* Center elements horizontally */
+  }
+  
+  .hero-image h1 {
+    color: white;
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+  .hero-image p {
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-image button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .content h2 {
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .benefit-cards {
+    display: flex;
+    justify-content: space-around; /* Distribute cards evenly */
+    flex-wrap: wrap; /* Allow cards to wrap to next line if needed */
+  }
+  
+  .card {
+    background-color: #f0f0f0;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  }
+  
+  .card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .card h3 {
+    margin-bottom: 5px;
+  }
+  
+  .call-to-action {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .call-to-action a {
+    margin: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .button.primary {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .button.secondary {
+    background-color: #f0f0f0; /* Light gray */
+    color: black;
+  }
