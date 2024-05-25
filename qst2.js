@@ -1,5 +1,3 @@
-function longestWord(words) {
-    return words.reduce((longest, current) => {
-        return current.length > longest.length ? current : longest;
-    }, "");
+function filterPeopleOver30(peopleArray) {
+    return peopleArray.filter(person => person.age > 30);
 }
